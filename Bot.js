@@ -14,19 +14,4 @@ client.once(Events.ClientReady, c => {
 
 client.login(token);//Login to the bot user (Make sure last so it runs everything beforehand)
 
-//Kiz schooling VVVV
-let five = 5
-
-console.log(five)
-
-const array = [1,2,3]
-
-const obj = {integery: 4, stringy: "hello"}
-
-console.log(obj.integery)
-
-console.log(obj.stringy)
-
-
-
-//cry
+//javascript is weird 🥲
