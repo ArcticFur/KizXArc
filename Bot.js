@@ -3,7 +3,23 @@ You can edit the bot app in the team.
 7/2/23 - 12:18am | Arc */
 
 /*  Damn! even got the time stamps!
-    7/1/23 - 9:39 PM | Kiz  */
+    7/1/23 - 1:39 PM | Kiz  */
 
 
 //time to learn javascript
+
+let five = 5
+
+console.log(five)
+
+const array = [1,2,3]
+
+const obj = {integery: 4, stringy: "hello"}
+
+console.log(integery)
+
+console.log(stringy)
+
+
+
+//cry
