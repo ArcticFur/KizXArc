@@ -1,13 +1,19 @@
-/*this will be our main run file, feel free to do what you want. Rearrange, rename, write it whatever. You've been invited to the app team on discords dev site.
-You can edit the bot app in the team.
-7/2/23 - 12:18am | Arc */
+/*UnamedBot project
+Start Date: July 1st, 2023
+Authors: Arctic_Angel, Kizune*/
 
-/*  Damn! even got the time stamps!
-    7/1/23 - 1:39 PM | Kiz  */
+const {client, Events, GatewayIntentBits} = require("discord.js");// Client, Events, and GatewayIntentBits all are part of the discord.js lib
+const token = "MTEyNDg5OTQ1ODA3Mzc1OTgxNA.Ga8T0W.7fprlux2PlYMoAiIdIf5MSSZXrSJ7dtaYIK_oQ";
+const client = new Client({ intents: [GatewayIntentBits.Guilds]});//Makes the bot user with each intent. If we apply for more intents they can be added here
 
+//onetime run once client is okay to run
+client.once(Events.ClientReady, c => {
+    //yuh
+});
 
-//time to learn javascript
+client.login(token);//Login to the bot user (Make sure last so it runs everything beforehand)
 
+//Kiz schooling VVVV
 let five = 5
 
 console.log(five)
@@ -16,9 +22,9 @@ const array = [1,2,3]
 
 const obj = {integery: 4, stringy: "hello"}
 
-console.log(integery)
+console.log(obj.integery)
 
-console.log(stringy)
+console.log(obj.stringy)
 
 
 
