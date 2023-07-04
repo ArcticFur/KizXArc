@@ -35,10 +35,6 @@ client.once(Events.ClientReady, c => {
     console.log(`Ready! Logged in as ${c.user.tag}`);
 });
 
-client.login(token);//Login to the bot user (Make sure last so it runs everything beforehand)
-
-//javascript is weird 🥲
-
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
@@ -60,4 +56,8 @@ client.on(Events.InteractionCreate, async interaction => {
 		}
 	}
 });
+
+client.login(token);//Login to the bot user (Make sure last so it runs everything beforehand)
+
+//javascript is weird 🥲
 
