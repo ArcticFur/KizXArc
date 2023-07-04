@@ -9,12 +9,9 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });//Makes the b
 
 //onetime run once client is okay to run
 client.once(Events.ClientReady, c => {
-    //yuh
+    console.log("Bot Online!")
 });
 
 client.login(token);//Login to the bot user (Make sure last so it runs everything beforehand)
 
 //javascript is weird 🥲
-
-
-let penis = "test";
