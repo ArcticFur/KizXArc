@@ -11,7 +11,7 @@ function readInput() {
         output: process.stdout,
     });
 
-    return new Promise(resolve => interface.question("\"private\" or \"public\"?", answer => {
+    return new Promise(resolve => interface.question("\"private\" or \"public\"? ", answer => {
         interface.close();
         resolve(answer);
     }))

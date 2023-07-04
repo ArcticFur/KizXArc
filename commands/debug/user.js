@@ -1,5 +1,6 @@
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder } = require("discord.js")
 
+//Script to be exported into Bot.js
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('user')
