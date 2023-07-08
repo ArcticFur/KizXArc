@@ -62,5 +62,5 @@ client.on(Events.InteractionCreate, async interaction => {
 
 client.login(token);//Login to the bot user (Make sure last so it runs everything beforehand)
 
-//javascript is weird 🥲
+//javascript is weird 😭
 
